@@ -19,6 +19,7 @@
 #define _GNU_SOURCE
 #include <sys/ptrace.h>
 #include <sys/types.h>
+#include <sys/resource.h>
 #include <sys/wait.h>
 #include <sys/user.h>
 #include <unistd.h>
