@@ -17,11 +17,11 @@
  */
 
 #define _GNU_SOURCE
-#include <sys/ptrace.h>
 #include <sys/types.h>
+#include <sys/user.h>
+#include <sys/ptrace.h>
 #include <sys/resource.h>
 #include <sys/wait.h>
-#include <sys/user.h>
 #include <unistd.h>
 #include <fcntl.h>
 #include "run.h"

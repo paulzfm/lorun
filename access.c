@@ -17,6 +17,7 @@
  */
 
 #include "access.h"
+#include <sys/types.h>
 #include <sys/syscall.h>
 #include <sys/ptrace.h>
 #include <fcntl.h>
